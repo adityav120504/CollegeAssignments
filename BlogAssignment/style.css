@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+nav .nav-link {
+  color: white;
+  font-weight: 600;
+}
+
+nav .nav-link:hover {
+  color: #cce5ff;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: 600;
+  color: #007bff;
+}
+
+form#addPostForm input,
+form#addPostForm textarea,
+form#addPostForm button {
+  border-radius: 4px;
+}
+
+form#addPostForm button {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+#blogList .list-group-item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+#blogList .list-group-item:hover {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+#blogList h5 {
+  margin-bottom: 8px;
+  color: #0056b3;
+}
+
+#blogList p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+#blogList span {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+#blogList button {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+#blogList button.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+#blogList button.btn-danger:hover {
+  background-color: #a71d2a;
+  cursor: pointer;
+}
